@@ -1,0 +1,44 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.main-bg-color {
+    background: rgb(36, 53, 63);
+}
+
+.main-color {
+    color: rgb(23, 162, 184);
+    display: block !important;
+}
+
+.d-shadow {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+.btn-outline-primary {
+    border-color: rgb(23, 162, 184) !important;
+
+}
+
+.btn-outline-primary:hover {
+    background: rgb(23, 162, 184) !important;
+}
+
+#upName::placeholder,
+#upEmail::placeholder,
+#upPass::placeholder {
+    color: rgb(179, 179, 179);
+
+}
+
+#inPass::placeholder,
+#inEmail::placeholder{
+    color: rgb(179, 179, 179);
+
+}
+a:hover{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+#signUpDiv,#home{
+    display: none;
+}

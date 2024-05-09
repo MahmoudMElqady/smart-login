@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="main-bg-color">
+    <div id="home">
+        <nav class=" d-flex justify-content-around align-items-center px-3  d-shadow fixed-top">
+            <div class="logo px-5 py-3 text-white ">
+                <h1>Smart Login</h1>
+                
+            </div>
+            <div class="log px-5 py-3">
+                <button id="logOutBtn" class="btn btn-outline-warning">Log Out</button>
+            </div>
+        </nav>
+        <div class="container d-flex vh-100 align-items-center justify-content-center">
+            <div class="text-center d-shadow w-50 p-5 main-bg-color mt-5 ">
+                <div id="userName">
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row justify-content-center ">
+            <div class="text-center d-shadow w-50 p-5 main-bg-color mt-5 " id="signInDiv">
+                <div>
+                    <h2 class="my-4 fw-bold main-color ">Smart Login System</h2>
+                    <p class="main-color fw-semibold">Created by Mahmoud Elqady</p>
+                    <input class=" form-control my-3 bg-transparent text-white " type="email" name="email"
+                        placeholder="Enter your email" id="inEmail">
+                    <input class=" form-control my-3 bg-transparent text-white " type="password" name="pass"
+                        placeholder="Enter password" id="inPass">
+                    <span id="alertIn"></span>
+                    <button id="loginBtn" class="btn btn-outline-primary main-color form-control">Login</button>
+                    <span class=" text-light">Don’t have an account? <a id="signUpLink"
+                            class=" text-light text-decoration-none">Sign Up</a></span>
+
+                </div>
+            </div>
+            <div class="text-center d-shadow w-50 p-5 main-bg-color mt-5" id="signUpDiv">
+                <div>
+                    <h2 class="my-4 fw-bold main-color ">Smart Login System</h2>
+                    <input class=" form-control my-3 bg-transparent text-white " type="text" name="name"
+                        placeholder="Enter your name" id="upName">
+                    <input class=" form-control my-3 bg-transparent text-white " type="email" name="email"
+                        placeholder="Enter your email" id="upEmail">
+                    <input class=" form-control my-3 bg-transparent text-white " type="password" name="pass"
+                        placeholder="Enter password" id="upPass">
+                    <span id="alertUp" class="text-center">
+                        
+                    </span>
+                    <button id="signUpBtn" class="btn btn-outline-primary main-color form-control">Sign Up</button>
+                    <span class=" text-light">You have an account? <a id="signInLink"
+                            class=" text-light text-decoration-none">Sign
+                            in</a></span>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
